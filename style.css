@@ -11,16 +11,12 @@ body, html {
     height: 100%;
 }
 
-body {
-  
-}
-
 .landing {
-    background-color:rgba(255, 255, 255, 0.500);
+    background-color:rgba(255, 255, 255, 0.650);
     color:#CC0000;
-    font-family: "Koulen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     align-items: center;
     justify-content: center;
 
@@ -31,9 +27,9 @@ body {
     position: relative;
 }
 .navtext {
-    font-family: "Koulen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .arrow {
@@ -43,4 +39,33 @@ body {
 
 .home {
     background-color:#CC0000;
+}
+
+.heroContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.hero-image {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.heroTextContainer {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 8fr;
+    grid-template-rows: 1fr;
+}
+
+.customtext {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.introimg {
+    width:40vw;
+    height:auto;
 }

@@ -82,3 +82,15 @@ border-left: 6px solid #CC0000;
   left: 50%;
   margin-left: -3px;
 }
+
+.mission {
+    background-color:#CC0000;
+    color:#CC0000;
+    align-items: center;
+    justify-content: center;
+}
+
+.redbtn {
+background-color: #CC0000;
+border:#CC0000;
+}

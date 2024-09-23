@@ -12,7 +12,9 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
 
-  <!--LANDING PAGE TEXT-->
+  <link rel="icon" type="image/x-icon" href="imgs/ncstateicon.png" />
+
+  <!--GOOGLE FONTS-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
@@ -67,7 +69,8 @@
 
   <div class="container-fluid p-0">
     <div class="heroContainer d-grid">
-      <img class="w-100 align-items-center hero-image" src="imgs/ncsu landing page1.jpg" alt="" style="height:100%;" />
+      <img class="img-fluid w-100 align-items-center hero-image" src="imgs/ncsu landing page1.jpg" alt=""
+        style="height:100%;" />
       <div class="heroTextContainer mt-3">
         <div class="row justify-content-center align-items-center">
           <div class="col-6 landing">
@@ -76,17 +79,24 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <img onclick="intro" class="arrow" src="imgs/down arrow (1).png" alt="" />
+          <img onclick="intro" class="arrow img-fluid" src="imgs/down arrow (1).png" alt="" />
         </div>
       </div>
     </div>
   </div>
   <!-- END OF LANDING PAGE-->
+
+
+
+
+
   <!--VERTICAL LINE CODE-->
   <div class="vertline"></div>
+
+
   <!--INTRO PAGE-->
-  <div class="container-fluid mt-5 home w-100 p-0 pb-5" id="home">
-    <div class="row p-0">
+  <div class="container-fluid mt-5 home w-100 pb-5" id="home">
+    <div class="row">
       <h1 class="text-center text-white p-0 customtext mt-4">
         Welcome to NC State!
       </h1>
@@ -98,8 +108,8 @@
           ahead! Go Wolfpack!
         </h2>
       </div>
-      <div class="col-lg-4 col-12 text-center ">
-        <img src="imgs/homephoto.jpg" alt="" class="img-fluid introimg border border-5 border-white" />
+      <div class="col-lg-5 col-sm-10 text-center">
+        <img src="imgs/homephoto.jpg" alt="" class="img-fluid border border-3 border-white rounded-3" />
       </div>
     </div>
 
@@ -109,31 +119,30 @@
 
         <h1 class="text-white">Our Mission</h1>
       </div>
-      <div class="col-5 pb-5 ">
+      <div class="col-lg-5 col-sm-10 pb-5 ">
         <img src="imgs/ncstatemission.jpg" alt="" class="img-fluid border border-3 border-white rounded-2">
       </div>
-      <div class="col-5 pb-5">
+      <div class="col-lg-5 col-sm-10 pb-5">
         <h4 class="text-white">Our mission is to enhance the quality of life for individuals and communities through
           education, research, and outreach. Committed to diversity and inclusion, we strive to create an accessible
           environment where all students can succeed. By emphasizing innovation and collaboration, we prepare graduates
           to tackle real-world challenges and contribute positively to society.</h4>
       </div>
     </div>
- 
 
-  <!--ARROW TO SCROLL-->
-  <div class="row  text-center pt-5">
-    <h2 class="text-white navtext">Scroll down to learn about the programs you can take at NC State!</h2>
-  </div>
-  <div class="row  text-center">
-    <div class="col-12">
-      <img class="customarrow" src="imgs/down arrow (2).png" alt="">
+
+    <!--ARROW TO SCROLL-->
+    <div class="row  text-center pt-5">
+      <h2 class="text-white navtext">Scroll down to learn about the programs you can take at NC State!</h2>
     </div>
-  </div>
+    <div class="row  text-center">
+      <div class="col-12">
+        <img class="customarrow" src="imgs/down arrow (2).png" alt="">
+      </div>
+    </div>
 
   </div>
-  </div>
-</div>
+
 
   <!-- END OF INTRO PAGE-->
 
@@ -142,16 +151,19 @@
   <!--VERTICAL LINE CODE-->
   <div class="vertline"></div>
   <!--ACADEMICS PAGE-->
-  <div class="container-fluid mt-5 home w-100 p-0 pb-5" id="academics">
+  <div class="container-fluid mt-5 home w-100 pb-5" id="academics">
     <div class="row p-0">
       <h1 class="text-center text-white p-0 customtext mt-4">
         Academics & Majors/Minors
       </h1>
     </div>
-   
+
     <div class="row justify-content-center pb-5">
       <div class="col-5 ">
-        <h6 class="text-white text-center">NC State offers a diverse range of majors that cater to various interests, from engineering and business to life sciences and design. With a strong emphasis on hands-on learning and research, students are equipped with the skills needed to excel in their chosen fields and make meaningful contributions to society.
+        <h6 class="text-white text-center">NC State offers a diverse range of majors that cater to various interests,
+          from engineering and business to life sciences and design. With a strong emphasis on hands-on learning and
+          research, students are equipped with the skills needed to excel in their chosen fields and make meaningful
+          contributions to society.
         </h6>
       </div>
     </div>
@@ -163,62 +175,124 @@
         </h2>
       </div>
     </div>
-<!-- DONT DO CARDS EDIT AT HOME
-    <div class="row align-items-center">
-      <div class="col-6 d-flex justify-content-end">
-        <div class="card" style="width: 18rem;">
-          <img src="https://www.csc.ncsu.edu/courses/students.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Computer Science</h5>
-            <p class="card-text">One of the most popular majors at NC State is Computer Science, which prepares students for a dynamic career in technology through a robust curriculum focused on programming, software development, and data analysis.</p>
-            <a href="#" class="btn btn-primary redbtn">Go somewhere</a>
-          </div>
-        </div>
+    <!-- DONT DO CARDS EDIT AT HOME-->
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-sm-10 d-flex">
+        <img src="https://www.csc.ncsu.edu/courses/students.jpg"
+          class=" img-fluid card-img-top border border-3 border-white rounded-3" alt="...">
       </div>
-      
-      <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <img src="https://poole.ncsu.edu/undergraduate/wp-content/uploads/sites/23/2021/10/ncstate-pcom-oup-majors-classroom.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Business Administration</h5>
-            <p class="card-text">A highly sought-after major at NC State is Business Administration, which equips students with essential skills in management, finance, and marketing, fostering their readiness for a competitive global marketplace.</p>
-            <a href="#" class="btn btn-primary redbtn">Go somewhere</a>
-          </div>
-        </div>
+      <div class="col-lg-4 col-sm-12 align-items-center p-5">
+        <h3 class="card-title text-white">Computer Science</h3>
+        <p class="card-text py-5 text-white">One of the most popular majors at NC State is Computer Science, which
+          prepares students for
+          a dynamic career in technology through a robust curriculum focused on programming, software development, and
+          data analysis.</p>
+        <a href="https://www.csc.ncsu.edu/index.php"
+          class="btn btn-primary redbtn border border-3 border-white rounded-3">Learn More!</a>
       </div>
+    </div>
+
+    <div class="row justify-content-center pt-3">
+      <div class="col-lg-4 col-sm-10 d-flex">
+        <img
+          src="https://poole.ncsu.edu/undergraduate/wp-content/uploads/sites/23/2021/10/ncstate-pcom-oup-majors-classroom.jpg"
+          class="img-fluid card-img-top border border-3 border-white rounded-3" alt="...">
       </div>
-    -->
+      <div class="col-lg-4 col-sm-12 align-items-center p-5">
+        <h3 class="card-title text-white">Business Administration</h3>
+        <p class="card-text py-5 text-white">A highly sought-after major at NC State is Business Administration, which
+          equips students
+          with essential skills in management, finance, and marketing, fostering their readiness for a competitive
+          global
+          marketplace.</p>
+        <a href="https://catalog.ncsu.edu/undergraduate/management/business/business-administration-bs/"
+          class="btn btn-primary redbtn border border-3 border-white rounded-3">Learn More!</a>
+      </div>
+    </div>
+
+    <div class="row justify-content-center pt-3">
+      <h2 class="text-center text-white">For the rest of our majors, click <a class="text-white"
+          href="https://majorsandminors.dasa.ncsu.edu/">here!</a></h2>
+    </div>
 
 
 
 
 
-    <div class="row  text-center pt-5">
+
+
+
+    <div class="row  text-center pt-4">
       <h2 class="text-white navtext">Scroll down to learn about the students of NC State!</h2>
     </div>
     <div class="row  text-center">
       <div class="col-12">
-        <img class="customarrow" src="imgs/down arrow (2).png" alt="">
+        <img class="img-fluid customarrow" src="imgs/down arrow (2).png" alt="">
       </div>
     </div>
-
   </div>
-  </div>
-</div>
-</div>
   <!-- END OF ACADEMICS PAGE-->
 
 
   <!--VERTICAL LINE CODE-->
   <div class="vertline"></div>
-  <!--ACADEMICS PAGE-->
+  <!--STUDENT LIFE PAGE-->
   <div class="container-fluid mt-5 home w-100 p-0 pb-5" id="student">
     <div class="row p-0">
       <h1 class="text-center text-white p-0 customtext mt-4">
         Student Life/Campus
       </h1>
     </div>
-    <!--ADD CONTENT HERE-->
+
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-sm-12 align-items-center p-5">
+        <div class="card border border-3 border-white rounded-3">
+          <img
+            src="https://www.enr.com/ext/resources/Issues/National_Issues/2015/November/09-Nov/SE_110915_Merit_HigherEd_Talley_1.jpg?1447092463"
+            class="img-fluid card-img-top" alt="...">
+          <div class="card-body redbg border border-3 border-white rounded-3">
+            <p class="card-text text-white">Talley Student Union at NC State serves as a vibrant hub for student life,
+              offering a variety of dining options, meeting spaces, and recreational facilities. With its modern design
+              and welcoming atmosphere, it fosters community engagement and provides a perfect spot for students to
+              relax and connect.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 align-items-center p-5">
+        <div class="card border border-3 border-white rounded-3">
+          <img src="https://cnr.ncsu.edu/wp-content/uploads/sites/18/2016/07/wolfpack.jpg"
+            class="img-fluid card-img-top" alt="...">
+          <div class="card-body redbg border border-3 border-white rounded-3">
+            <p class="card-text text-white">NC State is home to over 700 clubs and extracurricular activities, catering
+              to a wide range of interests, from academic and professional organizations to cultural and recreational
+              groups. Students can also participate in various intramural and club sports, fostering teamwork and
+              competition in a fun environment. With a strong emphasis on school spirit, NC State's varsity athletics
+              provide an exciting way for students to support their teams and engage with the campus community.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 align-items-center p-5">
+        <div class="card border border-3 border-white rounded-3">
+          <img
+            src="https://www.newsobserver.com/latest-news/sm3jr4/picture272625221/alternates/FREE_1140/UniversityTower.png"
+            class="img-fluid card-img-top" alt="...">
+          <div class="card-body redbg border border-3 border-white rounded-3">
+            <p class="card-text text-white">NC State offers a variety of housing options, including traditional
+              residence halls, suite-style living, and apartment-style accommodations to suit different preferences and
+              lifestyles. With a focus on community and convenience, many of the residence halls are strategically
+              located near dining facilities, academic buildings, and recreational spaces. Housing costs at NC State for
+              the 2023-2024 academic year typically range from about $3,500 to $7,500 per year.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
     <div class="row  text-center pt-5">
       <h2 class="text-white navtext">Scroll down to learn about the financial side of NC State!</h2>
     </div>
@@ -231,19 +305,85 @@
   </div>
   </div>
 
-  <!-- END OF ACADEMICS PAGE-->
+  <!-- END OF STUDENT PAGE-->
 
 
   <!--VERTICAL LINE CODE-->
   <div class="vertline"></div>
-  <!--ACADEMICS PAGE-->
+
+
+
+  <!--COST PAGE-->
   <div class="container-fluid mt-5 home w-100 p-0 pb-5" id="cost">
-    <div class="row p-0">
+    <div class="row">
       <h1 class="text-center text-white p-0 customtext mt-4">
         Cost & Financial Aid
       </h1>
     </div>
-    <!--ADD CONTENT HERE-->
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-4 col-sm-10 text-center">
+        <img class="img-fluid w-50" src="imgs/piggybank.png" alt="">
+      </div>
+
+      <div class="col-sm-8 col-lg-5 d-flex align-items-center">
+        <h3 class="text-white p-3"><u>In-State Tuition:</u> About $9,100 per year
+          <br> <br> <br><u>Out-of-State Tuition:</u> Around $31,400 per year
+        </h3>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <h4 class="text-center text-white pt-5">NC State offers a wide range of financial aid opportunities, including
+          scholarships, grants, loans, and work-study programs to help students finance their education. The university
+          is committed to making higher education accessible, providing resources and support to guide students through
+          the financial aid application process.</h4>
+        <h5 class="text-center text-white">For more on financial aid opportunities, click <a class="text-white"
+            href="https://studentservices.ncsu.edu/finances/scholarships-and-financial-aid/">here!</a></h5>
+      </div>
+    </div>
+
+    <div class="row justify-content-center p-5">
+      <div class="col-6 text-center">
+        <img class="img-fluid w-50" src="https://ncwu.edu/wp-content/uploads/2016/07/cost-aid-icon.png" alt="">
+      </div>
+    </div>
+
+    <div class="row justify-content-center p-5">
+      <div class="col-6">
+        <h3 class="text-white text-center">Students at NC State can take advantage of payment plans that enable them to
+          align their tuition payments with their financial situations, ensuring a smoother transition into college
+          expenses.</h3>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-4 col-sm-10 text-center">
+        <img class="img-fluid w-50" src="imgs/checklist.png" alt="">
+      </div>
+
+      <div class="col-sm-8 col-lg-5 d-flex align-items-center">
+        <h1 class="text-white p-3"><u>Deadlines:</u>
+        </h1>
+        <h3 class="text-white text-center pt-3">
+          Regular Admission: January 15 <br>
+          Early Action: November 1 <br> <br>
+
+          <u>Transfers:</u> <br>
+          Fall Admission: March 15 <br>
+          Spring Admission: October 1 <br> <br>
+
+          *Deadlines vary by program*
+        </h3>
+      </div>
+    </div>
+
+
+
     <div class="row  text-center pt-5">
       <h2 class="text-white navtext">Scroll down to learn about some of our most notable alumni!</h2>
     </div>
@@ -254,29 +394,76 @@
     </div>
 
   </div>
-  </div>
 
-  <!-- END OF ACADEMICS PAGE-->
+  <!-- END OF COST PAGE-->
 
 
   <!--VERTICAL LINE CODE-->
   <div class="vertline"></div>
-  <!--ACADEMICS PAGE-->
+  <!--ALUMNI PAGE-->
   <div class="container-fluid mt-5 home w-100 p-0 pb-5" id="alumni">
     <div class="row p-0">
       <h1 class="text-center text-white p-0 customtext mt-4">
         Notable Alumni
       </h1>
     </div>
-    <!--ADD CONTENT HERE-->
+    <section class="section section6" id="alumni">
+      <div class="container">
+        <div class="row justify-content-center p-3 g-3" id="alumniCards">
+
+        </div>
+
+      </div>
+    </section>
   </div>
   </div>
 
-  <!-- END OF ACADEMICS PAGE-->
+  <!-- END OF ALUMNI PAGE-->
 
-  <footer>
-    <!-- place footer here -->
-  </footer>
+  <!--CODE TAKEN FROM W3SCHOOLS; LINK: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<!--VERTICAL LINE CODE-->
+<div class="vertline"></div>
+
+  <!--footer start-->
+  <footer
+  class="mt-5 text-center text-white align-items-center justify-content-center redbg">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0 ">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Github -->
+      <div class="vl col-1"></div>
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: gray"
+        href="https://github.com/rklad"
+        role="button"
+        target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #284b63"
+        href="https://rklad.github.io/gallery/"
+        role="button"
+        target="_blank"
+        ><i class="fa-solid fa-laptop-code"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 redbg">
+    <p>Created by: Randy Kladerman</p>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!--footer end  -->
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
